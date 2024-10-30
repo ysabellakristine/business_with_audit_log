@@ -1,0 +1,114 @@
+body { 
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: rgb(5, 255, 255);
+    line-height: 1.7;
+    display: flex;             
+    justify-content: center;   
+    align-items: center;        
+    height: 100vh;              
+    margin: 0;  
+    flex-direction: column;    
+    text-align: center;         
+    color: rgb(238, 0, 127);             
+    overflow: auto;
+    padding: 100px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: rgb(255, 0, 149);   
+}
+
+h2 { 
+    color: rgb(119, 0, 255);  /* Corrected typo */
+}
+
+p {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: rgb(253, 127, 245);             
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #c800ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #c800ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ff2317;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #862705; /* Darker shade for hover effect */
+}
+table {
+    border-collapse: collapse; /* Ensures borders are combined */
+    width: 100%; /* Makes the table full width */
+}
+th, td {
+    border: 1px solid rgba(1, 75, 248, 0.978); /* Adds a border to table cells */
+    padding: 8px; /* Adds padding inside cells */
+    text-align: left; /* Aligns text to the left */
+}
+th {
+    background-color: #c383fb; /* Light gray background for header */
+}
+td {
+    background-color: #cda9ec; /* Light gray background for header */
+}
+.container {
+    background-color: #b0faf3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    border: 10px solid #e601ff;
+    margin-top: 50px;
+}
+
+.table_container { 
+    background-color: #b0faf3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+    border: 10px solid #e601ff
+}
+form {
+    width: 100%;                
+    display: block;             
+}
+
+input, select {
+    display: block;             
+    margin: 10px auto;          
+}
