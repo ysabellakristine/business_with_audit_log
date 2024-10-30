@@ -11,3 +11,5 @@ otherwise FORBIDDEN 403 error lumalabas
 Additions to original code: 
 
 Instead of hard delete, I made a soft delete method so that the audit logs will also include deleted toys and toy resellers in the database.
+
+Added input sanitization and htmlspecialchars
